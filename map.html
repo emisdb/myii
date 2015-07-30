@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Моя карта</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+  <link rel="stylesheet" type="text/css" href="map/map.css" />
+    <!--
+        Подключаем API карт 2.x
+        Параметры:
+          - load=package.full - полная сборка;
+	      - lang=ru-RU - язык русский.
+    -->
+	<script type="text/javascript" src="map/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="map/scriptbreaker-multiple-accordion-1.js"></script>
+    <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU&coordorder=longlat"
+            type="text/javascript"></script>
+	<script type="text/javascript" language="javascript" src="map/map.js"></script>
+    <script type="text/javascript">
+        // Как только будет загружен API и готов DOM, выполняем инициализацию
+
+$(document).ready(function() {
+	$(".topnav").accordion({
+		accordion:false,
+		speed: 500,
+		closedSign: '[+]',
+		openedSign: '[-]'
+	});
+});
+    ymaps.ready(init);
+    </script>
+
+</head>
+
+<body>
+<h2>Размещение карты на странице</h2>
+
+<div class="maps" id="map"></div>
+
+<div class="right_text"> 
+<div onclick="trigger()">TRY</div>
+<ul class="topnav">
+	<li class="active"><a href="#"  onclick="">Санкт-Петербург</a>
+		<ul>
+			<li><div class="chk" id=ch1 onclick="checkit('ch1')"></div> <a href="#">Выборгский р-н</a></li>
+			<li><a href="#" onclick="">Василеостровский р-н</a></li>
+			<li><a href="#" onclick="">Приморский р-н</a></li>
+			<li><a href="#" onclick="">Петроградский р-н</a></li>
+		</ul>
+	</li>
+	<li><a href="#"  onclick="">Автодороги</a>
+		<ul>
+			<li><a href="#" onclick="">Мурманское шоссе</a></li>
+			<li><a href="#" onclick="">Московское шоссе</a></li>
+			<li><a href="#" onclick="">Киевское шоссе</a></li>
+			<li><a href="#" onclick="">Таллинское шоссе</a></li>
+			<li><a href="#" onmouseover="m_coll.options.set( 'strokeColor' ,'bb6600');"
+onmouseout="m_coll.options.set('strokeColor', '33ff00');" onclick="">Выборгское шоссе</a></li>
+ 			<li><a href="#" onclick="">Приозерское шоссе</a></li>
+			<li><a href="#" onclick="">Токсовское шоссе</a></li>
+		</ul>
+	</li>
+	<li><a href="#"  onclick="">Пограничные зоны</a>
+		<ul>
+			<li><a href="#" onclick="">Торфяновка</a></li>
+			<li><a href="#" onclick="">Брусничное</a></li>
+			<li><a href="#" onclick="">Светогорск</a></li>
+		</ul>
+	</li>
+	<li><a href="#"  onclick="">Пулково-2</a>
+		<ul>
+			<li><a href="#" onclick="">Стартовая улица</a></li>
+			<li><a href="#" onclick="">Пулковское шоссе</a></li>
+		</ul>
+	</li>
+	<li><a href="#"  onclick="">Пригороды</a>
+		<ul>
+			<li><a href="#" onclick="">Гатчина</a></li>
+			<li><a href="#" onclick="">Колпино</a></li>
+			<li><a href="#" onclick="">Красное село</a></li>
+			<li><a href="#" onclick="">Петродворец</a></li>
+			<li><a href="#" onclick="">Пушкин</a></li>
+			<li><a href="#" onclick="">Сосновый бор</a></li>
+		</ul>
+	</li>
+	<li><a href="#"  onclick="">Районные центры Лен. области</a>
+		<ul>
+			<li><a href="#" onclick="">Бокситогорск</a></li>
+			<li><a href="#" onclick="">Волосово</a></li>
+			<li><a href="#" onclick="">Волхов</a></li>
+			<li><a href="#" onclick="">Всеволожск</a></li>
+			<li><a href="#" onclick="">Ивангород</a></li>
+			<li><a href="#" onclick="">Кингисепп</a></li>
+			<li><a href="#" onclick="">Кириши</a></li>
+			<li><a href="#" onclick="">Кировск</a></li>
+			<li><a href="#" onclick="">Коммунар</a></li>
+			<li><a href="#" onclick="">Лодейное поле</a></li>
+			<li><a href="#" onclick="">Луга</a></li>
+			<li><a href="#" onclick="">Пикалево</a></li>
+			<li><a href="#" onclick="">Приозерск</a></li>
+			<li><a href="#" onclick="">Сланцы</a></li>
+			<li><a href="#" onclick="">Тихвин</a></li>
+			<li><a href="#" onclick="">Тосно</a></li>
+			<li><a href="#" onclick="">Шлиссельбург</a></li>
+		</ul>
+	</li>
+	
+	</ul>
+</div>
+</body>
+
+</html>

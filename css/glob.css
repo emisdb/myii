@@ -1,0 +1,54 @@
+.beonoGlobus {
+ position: relative;
+ overflow: hidden;
+}
+
+.loading {
+ background: url("../imagesloading.gif") no-repeat center center;
+}
+.beonoGlobus .beonoGlobus-controls {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	padding:0px;
+}
+.beonoGlobus .beonoGlobus-left,
+.beonoGlobus .beonoGlobus-right {
+	border: none;
+	width: 30px;
+	height: 50px;
+	position: absolute;
+	padding:0px;
+	cursor: pointer;
+}
+
+.beonoGlobus .beonoGlobus-left {
+	background: url("../images/left-right-navigation.png") left top no-repeat;
+	left: 20px;
+}
+
+.beonoGlobus .beonoGlobus-right {
+	background: url("../images/left-right-navigation.png") right top no-repeat;
+	right: 20px;
+}
+
+.beonoGlobus .beonoGlobus-left:hover,
+.beonoGlobus .beonoGlobus-left.active  {
+	background-position: left bottom;
+}
+.beonoGlobus .beonoGlobus-right:hover,
+.beonoGlobus .beonoGlobus-right.active {
+	background-position: right bottom;
+}
+
+div.norm
+{
+text-align:center;
+}
+
+
+div.norm img
+{
+
+height:90%;
+}

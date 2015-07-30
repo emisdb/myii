@@ -1,0 +1,1327 @@
+2015/04/06 18:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "users" не найден.' in D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('users')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('paysys')
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/paysys')
+#7 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#9 {main}
+REQUEST_URI=/myii/index.php?r=site/paysys&view=users
+---
+2015/04/06 18:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "users" не найден.' in D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('users')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('paysys')
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/paysys')
+#7 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#9 {main}
+REQUEST_URI=/myii/index.php?r=site/paysys&view=users
+---
+2015/04/06 18:01:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "paysys.users" не найден.' in D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('paysys.users')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#9 {main}
+REQUEST_URI=/myii/index.php?r=site/page&view=paysys.users
+---
+2015/04/06 18:01:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "paysys.users" не найден.' in D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('paysys.users')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#9 {main}
+REQUEST_URI=/myii/index.php?r=site/page&view=paysys.users
+---
+2015/04/06 18:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "users" не найден.' in D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('users')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('paysys')
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/paysys')
+#7 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#9 {main}
+REQUEST_URI=/myii/index.php?r=site/paysys&view=users
+---
+2015/04/07 13:19:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiidb'' in D:\OpenServer\domains\localhost\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\OpenServer\domains\localhost\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\OpenServer\domains\localhost\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Cats))
+#7 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 D:\OpenServer\domains\localhost\myii\protected\controllers\CatsController.php(131): CActiveRecord->__construct('search')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): CatsController->actionIndex()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('cats')
+#20 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/myii/index.php?r=cats
+HTTP_REFERER=http://localhost/myii/index.php?r=site/page&view=prods
+---
+2015/05/22 20:19:48 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "D:\OpenServer\domains\localhost\myii\protected\config/../extentions/bootstrap\assets" не существует.' in D:\OpenServer\domains\localhost\yii\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(306): CAssetManager->publish('D:\OpenServer\d...', true, -1, false)
+#1 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(50): Bootstrap->getAssetsUrl()
+#2 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(81): Bootstrap->registerCoreCss()
+#3 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(115): Bootstrap->registerAllCss()
+#4 D:\OpenServer\domains\localhost\myii\protected\components\Controller.php(25): Bootstrap->register()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(306): Controller->beforeAction(Object(CInlineAction))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/
+---
+2015/05/22 20:21:00 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "D:\OpenServer\domains\localhost\myii\protected\config\..\extentions\bootstrap\assets" не существует.' in D:\OpenServer\domains\localhost\yii\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(306): CAssetManager->publish('D:\OpenServer\d...', true, -1, false)
+#1 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(50): Bootstrap->getAssetsUrl()
+#2 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(81): Bootstrap->registerCoreCss()
+#3 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(115): Bootstrap->registerAllCss()
+#4 D:\OpenServer\domains\localhost\myii\protected\components\Controller.php(25): Bootstrap->register()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(306): Controller->beforeAction(Object(CInlineAction))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/
+---
+2015/05/22 20:21:32 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "D:\OpenServer\domains\localhost\myii\protected\config..\extentions\bootstrap\assets" не существует.' in D:\OpenServer\domains\localhost\yii\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(306): CAssetManager->publish('D:\OpenServer\d...', true, -1, false)
+#1 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(50): Bootstrap->getAssetsUrl()
+#2 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(81): Bootstrap->registerCoreCss()
+#3 D:\OpenServer\domains\localhost\myii\protected\extensions\bootstrap\components\Bootstrap.php(115): Bootstrap->registerAllCss()
+#4 D:\OpenServer\domains\localhost\myii\protected\components\Controller.php(25): Bootstrap->register()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(306): Controller->beforeAction(Object(CInlineAction))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/
+---
+2015/05/24 08:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "test".' in D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#1 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/myii/index.php?r=test
+---
+2015/05/24 09:25:20 [error] [php] include(Constants.php): failed to open stream: No such file or directory (D:\OpenServer\domains\localhost\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\modules\test\controllers\DefaultController.php(15): spl_autoload_call()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionGo()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): DefaultController->runAction()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): DefaultController->run()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=test/default/go
+in D:\OpenServer\domains\localhost\myii\protected\modules\test\controllers\DefaultController.php (15)
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/05/24 09:27:06 [error] [php] include(Constants.php): failed to open stream: No such file or directory (D:\OpenServer\domains\localhost\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\modules\test\views\default\go.php(12): spl_autoload_call()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): DefaultController->renderFile()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): DefaultController->renderPartial()
+#5 D:\OpenServer\domains\localhost\myii\protected\modules\test\controllers\DefaultController.php(18): DefaultController->render()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionGo()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): DefaultController->runAction()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): DefaultController->run()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=test/default/go
+in D:\OpenServer\domains\localhost\myii\protected\modules\test\views\default\go.php (12)
+in D:\OpenServer\domains\localhost\myii\protected\modules\test\controllers\DefaultController.php (18)
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/05/24 09:27:43 [error] [php] include(Constants.php): failed to open stream: No such file or directory (D:\OpenServer\domains\localhost\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\modules\test\views\default\go.php(12): spl_autoload_call()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): DefaultController->renderInternal()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): DefaultController->renderFile()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): DefaultController->renderPartial()
+#5 D:\OpenServer\domains\localhost\myii\protected\modules\test\controllers\DefaultController.php(18): DefaultController->render()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionGo()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): DefaultController->runAction()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): DefaultController->run()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=test/default/go
+in D:\OpenServer\domains\localhost\myii\protected\modules\test\views\default\go.php (12)
+in D:\OpenServer\domains\localhost\myii\protected\modules\test\controllers\DefaultController.php (18)
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/05/24 09:33:08 [error] [php] Object of class CTheme could not be converted to string (D:\OpenServer\domains\localhost\myii\protected\modules\test\views\default\index.php:9)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): DefaultController->renderFile()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): DefaultController->renderPartial()
+#2 D:\OpenServer\domains\localhost\myii\protected\modules\test\controllers\DefaultController.php(8): DefaultController->render()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): DefaultController->runAction()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): DefaultController->run()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=test/
+in D:\OpenServer\domains\localhost\myii\protected\modules\test\views\default\index.php (9)
+in D:\OpenServer\domains\localhost\myii\protected\modules\test\controllers\DefaultController.php (8)
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/05/24 10:01:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yiidb'' in D:\OpenServer\domains\localhost\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\OpenServer\domains\localhost\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\OpenServer\domains\localhost\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Cats))
+#7 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 D:\OpenServer\domains\localhost\myii\protected\controllers\CatsController.php(131): CActiveRecord->__construct('search')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): CatsController->actionIndex()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('cats')
+#20 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/myii/index.php?r=cats
+HTTP_REFERER=http://localhost/myii/index.php?r=site/index
+---
+2015/05/24 14:34:54 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CMenu.htmlOption".' in D:\OpenServer\domains\localhost\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('htmlOption', Array)
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(DefaultController), 'zii.widgets.CMe...', Array)
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CMe...', Array)
+#3 D:\OpenServer\domains\localhost\myii\protected\modules\test\views\layouts\main.php(41): CBaseController->widget('zii.widgets.CMe...', Array)
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require('D:\OpenServer\d...')
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\OpenServer\d...', Array, true)
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(784): CBaseController->renderFile('D:\OpenServer\d...', Array, true)
+#7 D:\OpenServer\domains\localhost\myii\protected\modules\test\controllers\DefaultController.php(9): CController->render('index')
+#8 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#14 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/myii/index.php?r=test
+HTTP_REFERER=http://localhost/myii/index.php?r=test
+---
+2015/05/25 03:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "test".' in D:\OpenServer\domains\localhost\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(270): CController->missingAction('test')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('test')
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/default/te...')
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/myii/index.php?r=test/default/test
+HTTP_REFERER=http://localhost/myii/index.php?r=test/default/bs
+---
+2015/05/25 03:02:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "test/index".' in D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/index')
+#1 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/myii/index.php?r=test/index
+HTTP_REFERER=http://localhost/myii/index.php?r=test/default/bs
+---
+2015/05/26 15:51:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "index" не найден.' in D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#9 {main}
+REQUEST_URI=/myii/index.php?r=site/page&0%5Bview%5D=prods
+HTTP_REFERER=http://localhost/myii/index.php?r=test
+---
+2015/05/28 18:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "test".' in D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#1 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/myii/index.php?r=test
+HTTP_REFERER=http://localhost/myii/
+---
+2015/05/28 18:53:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "test".' in D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#1 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/myii/index.php?r=test
+HTTP_REFERER=http://localhost/myii/
+---
+2015/05/28 18:53:57 [error] [exception.CException] exception 'CException' with message 'Неправильный алиас "test.models.*". Убедитесь, что он указывает на существующую директорию или файл.' in D:\OpenServer\domains\localhost\yii\framework\YiiBase.php:348
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\base\CModule.php(226): YiiBase::import('test.models.*')
+#1 D:\OpenServer\domains\localhost\myii\protected\modules\bsp\BspModule.php(14): CModule->setImport(Array)
+#2 D:\OpenServer\domains\localhost\yii\framework\base\CModule.php(90): BspModule->init()
+#3 D:\OpenServer\domains\localhost\yii\framework\YiiBase.php(206): CModule->__construct('bsp', NULL, Array)
+#4 D:\OpenServer\domains\localhost\yii\framework\base\CModule.php(282): YiiBase::createComponent('bsp.BspModule', 'bsp', NULL, Array)
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(337): CModule->getModule('bsp')
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('bsp')
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('bsp')
+#8 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/myii/index.php?r=bsp
+HTTP_REFERER=http://localhost/myii/index.php?r=test
+---
+2015/05/29 20:35:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "test".' in D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#1 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/myii/index.php?r=test
+HTTP_REFERER=http://localhost/myii/
+---
+2015/06/05 02:26:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "test".' in D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#1 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/myii/index.php?r=test
+HTTP_REFERER=http://localhost/myii/index.php?r=bsp/default/bs
+---
+2015/06/05 02:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "test/default/bs".' in D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/default/bs')
+#1 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/myii/index.php?r=test/default/bs
+HTTP_REFERER=http://localhost/myii/index.php?r=bsp/default/bs
+---
+2015/06/06 23:46:42 [error] [exception.CException] exception 'CException' with message 'Контроллер DefaultController не может найти представление "pages/deps_4".' in D:\OpenServer\domains\localhost\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\modules\bsp\views\default\slider_2.php(47): CController->renderPartial('pages/deps_4')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require('D:\OpenServer\d...')
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\OpenServer\d...', NULL, true)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\OpenServer\d...', NULL, true)
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): CController->renderPartial('slider_2', NULL, true)
+#5 D:\OpenServer\domains\localhost\myii\protected\modules\bsp\controllers\DefaultController.php(12): CController->render('slider_2')
+#6 [internal function]: DefaultController->actionIndex('slider_2')
+#7 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('bsp')
+#14 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/myii/index.php?r=bsp&id=slider_2
+HTTP_REFERER=http://localhost/myii/index.php?r=bsp&id=slider_1
+---
+2015/06/09 20:29:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in D:\OpenServer\domains\localhost\yii\framework\gii\GiiModule.php:170
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/myii/index.php?r=gii
+---
+2015/06/10 14:10:44 [error] [exception.CException] exception 'CException' with message 'Псевдоним "ext.yiiext.modules.webshell.WebShellModule" неверен. Убедитесь, что он указывает на существующий PHP файл.' in D:\OpenServer\domains\localhost\yii\framework\YiiBase.php:323
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\YiiBase.php(196): YiiBase::import('ext.yiiext.modu...', true)
+#1 D:\OpenServer\domains\localhost\yii\framework\base\CModule.php(282): YiiBase::createComponent('ext.yiiext.modu...', 'webshell', NULL, Array)
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(337): CModule->getModule('webshell')
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('webshell')
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('webshell')
+#5 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#7 {main}
+REQUEST_URI=/myii/index.php?r=webshell
+---
+2015/06/10 14:13:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in D:\OpenServer\domains\localhost\myii\protected\extensions\yiiext\modules\webshell\WebShellModule.php:124
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(263): WebShellModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('webshell')
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/myii/index.php?r=webshell
+---
+2015/06/10 14:20:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page by IP.' in D:\OpenServer\domains\localhost\myii\protected\extensions\yiiext\modules\webshell\WebShellModule.php:124
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(263): WebShellModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('webshell')
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/myii/index.php?r=webshell
+---
+2015/06/10 14:25:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page by IP.' in D:\OpenServer\domains\localhost\myii\protected\extensions\yiiext\modules\webshell\WebShellModule.php:124
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(263): WebShellModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('webshell')
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/myii/index.php?r=webshell
+---
+2015/07/01 19:05:35 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'emis.user' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `user`.
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/07/02 15:09:11 [error] [php] include(Users.php): failed to open stream: No such file or directory (D:\OpenServer\domains\localhost\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\components\UserIdentity.php(25): spl_autoload_call()
+#1 D:\OpenServer\domains\localhost\myii\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#2 D:\OpenServer\domains\localhost\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#3 D:\OpenServer\domains\localhost\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#4 D:\OpenServer\domains\localhost\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#5 D:\OpenServer\domains\localhost\myii\protected\controllers\SiteController.php(106): LoginForm->validate()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=site/login
+in D:\OpenServer\domains\localhost\myii\protected\components\UserIdentity.php (25)
+in D:\OpenServer\domains\localhost\myii\protected\models\LoginForm.php (54)
+in D:\OpenServer\domains\localhost\myii\protected\controllers\SiteController.php (106)
+2015/07/02 15:15:36 [error] [php] include(Users.php): failed to open stream: No such file or directory (D:\OpenServer\domains\localhost\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\components\UserIdentity.php(25): spl_autoload_call()
+#1 D:\OpenServer\domains\localhost\myii\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#2 D:\OpenServer\domains\localhost\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#3 D:\OpenServer\domains\localhost\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#4 D:\OpenServer\domains\localhost\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#5 D:\OpenServer\domains\localhost\myii\protected\controllers\SiteController.php(106): LoginForm->validate()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=site/login
+in D:\OpenServer\domains\localhost\myii\protected\components\UserIdentity.php (25)
+in D:\OpenServer\domains\localhost\myii\protected\models\LoginForm.php (54)
+in D:\OpenServer\domains\localhost\myii\protected\controllers\SiteController.php (106)
+2015/07/02 17:36:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Must specify a project before
+            performing this action.' in D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php:29
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/index.php?r=issue/create
+HTTP_REFERER=http://localhost/myii/index.php?r=issue/admin
+---
+2015/07/02 17:45:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Must specify a project before
+            performing this action.' in D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php:29
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/index.php?r=issue/create
+HTTP_REFERER=http://localhost/myii/index.php?r=issue/admin
+---
+2015/07/02 17:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php:72
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php(27): IssueController->loadProject('1')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/myii/index.php?r=issue/create&pid=1
+---
+2015/07/02 19:25:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Must specify a project before
+            performing this action.' in D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php:31
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/index.php?r=issue/create&0%5Bpid%5D=1&0%5Biid%5D=2
+HTTP_REFERER=http://localhost/myii/index.php?r=issue/view&id=2
+---
+2015/07/02 19:28:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Must specify a project before
+            performing this action.' in D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php:31
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/index.php?r=issue/create
+HTTP_REFERER=http://localhost/myii/index.php?r=issue/index
+---
+2015/07/05 18:53:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Must specify a project before
+            performing this action.' in D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php:31
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/index.php?r=issue/create
+HTTP_REFERER=http://localhost/myii/index.php?r=issue/admin&pid=1
+---
+2015/07/10 12:49:47 [error] [exception.CException] exception 'CException' with message 'В классе Project и его поведениях не найден метод или замыкание с именем "getAllowedStatusRange".' in D:\OpenServer\domains\localhost\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getAllowedStatu...', Array)
+#1 D:\OpenServer\domains\localhost\myii\protected\models\Project.php(71): CActiveRecord->__call('getAllowedStatu...', Array)
+#2 D:\OpenServer\domains\localhost\myii\protected\models\Project.php(71): Project->getAllowedStatusRange()
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CModel.php(284): Project->rules()
+#4 D:\OpenServer\domains\localhost\yii\framework\base\CModel.php(260): CModel->createValidators()
+#5 D:\OpenServer\domains\localhost\yii\framework\base\CModel.php(547): CModel->getValidators()
+#6 D:\OpenServer\domains\localhost\yii\framework\base\CModel.php(468): CModel->getSafeAttributeNames()
+#7 D:\OpenServer\domains\localhost\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('attributes', Array)
+#9 D:\OpenServer\domains\localhost\myii\protected\controllers\ProjectController.php(79): CActiveRecord->__set('attributes', Array)
+#10 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#20 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#21 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/myii/index.php?r=project/create
+HTTP_REFERER=http://localhost/myii/index.php?r=project/create
+---
+2015/07/10 12:50:56 [error] [exception.CException] exception 'CException' with message 'В классе Project и его поведениях не найден метод или замыкание с именем "getAllowedStatusRange".' in D:\OpenServer\domains\localhost\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getAllowedStatu...', Array)
+#1 D:\OpenServer\domains\localhost\myii\protected\models\Project.php(71): CActiveRecord->__call('getAllowedStatu...', Array)
+#2 D:\OpenServer\domains\localhost\myii\protected\models\Project.php(71): Project->getAllowedStatusRange()
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CModel.php(284): Project->rules()
+#4 D:\OpenServer\domains\localhost\yii\framework\base\CModel.php(260): CModel->createValidators()
+#5 D:\OpenServer\domains\localhost\yii\framework\base\CModel.php(304): CModel->getValidators('name')
+#6 D:\OpenServer\domains\localhost\yii\framework\web\helpers\CHtml.php(1513): CModel->isAttributeRequired('name')
+#7 D:\OpenServer\domains\localhost\yii\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(Project), 'name', Array)
+#8 D:\OpenServer\domains\localhost\myii\protected\views\project\_form.php(23): CActiveForm->labelEx(Object(Project), 'name')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require('D:\OpenServer\d...')
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\OpenServer\d...', Array, true)
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\OpenServer\d...', Array, true)
+#12 D:\OpenServer\domains\localhost\myii\protected\views\project\create.php(18): CController->renderPartial('_form', Array)
+#13 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require('D:\OpenServer\d...')
+#14 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\OpenServer\d...', Array, true)
+#15 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\OpenServer\d...', Array, true)
+#16 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#17 D:\OpenServer\domains\localhost\myii\protected\controllers\ProjectController.php(86): CController->render('create', Array)
+#18 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#19 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#28 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#29 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#30 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#31 {main}
+REQUEST_URI=/myii/index.php?r=project/create
+HTTP_REFERER=http://localhost/myii/index.php?r=project/index
+---
+2015/07/11 04:28:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "wec".' in D:\OpenServer\domains\localhost\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(270): CController->missingAction('wec')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('wec')
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/wec')
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/myii/index.php?r=message/wec
+---
+2015/07/11 04:28:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in D:\OpenServer\domains\localhost\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webc')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webc')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/index.php?r=message/webc
+---
+2015/07/11 04:29:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in D:\OpenServer\domains\localhost\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webc')
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webc')
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/myii/index.php?r=message/webc
+---
+2015/07/11 04:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:204
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php(61): MessageController->loadModel(NULL)
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebc()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webc')
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webc')
+#12 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/myii/index.php?r=message/webc
+---
+2015/07/11 16:59:30 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\domains\localhost\myii\protected\models\Project.php:99)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): ProjectController->renderInternal()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): ProjectController->renderFile()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): ProjectController->renderPartial()
+#4 D:\OpenServer\domains\localhost\myii\protected\controllers\ProjectController.php(64): ProjectController->render()
+#5 unknown(0): ProjectController->actionView()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#13 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#16 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#17 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=project/view&id=2
+in D:\OpenServer\domains\localhost\myii\protected\models\Project.php (99)
+in D:\OpenServer\domains\localhost\myii\protected\models\Project.php (101)
+in D:\OpenServer\domains\localhost\myii\protected\views\project\view.php (41)
+2015/07/11 17:02:49 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\domains\localhost\myii\protected\models\Project.php:99)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): ProjectController->renderInternal()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): ProjectController->renderFile()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): ProjectController->renderPartial()
+#4 D:\OpenServer\domains\localhost\myii\protected\controllers\ProjectController.php(64): ProjectController->render()
+#5 unknown(0): ProjectController->actionView()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#13 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#16 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#17 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=project/view&id=2
+in D:\OpenServer\domains\localhost\myii\protected\models\Project.php (99)
+in D:\OpenServer\domains\localhost\myii\protected\models\Project.php (101)
+in D:\OpenServer\domains\localhost\myii\protected\views\project\view.php (41)
+2015/07/11 17:07:02 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\domains\localhost\myii\protected\models\Project.php:99)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): ProjectController->renderInternal()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): ProjectController->renderFile()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): ProjectController->renderPartial()
+#4 D:\OpenServer\domains\localhost\myii\protected\controllers\ProjectController.php(64): ProjectController->render()
+#5 unknown(0): ProjectController->actionView()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#13 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#16 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#17 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=project/view&id=2
+in D:\OpenServer\domains\localhost\myii\protected\models\Project.php (99)
+in D:\OpenServer\domains\localhost\myii\protected\models\Project.php (101)
+in D:\OpenServer\domains\localhost\myii\protected\views\project\view.php (41)
+2015/07/11 17:07:23 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\domains\localhost\myii\protected\models\Project.php:99)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): ProjectController->renderInternal()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): ProjectController->renderFile()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): ProjectController->renderPartial()
+#4 D:\OpenServer\domains\localhost\myii\protected\controllers\ProjectController.php(64): ProjectController->render()
+#5 unknown(0): ProjectController->actionView()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#13 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#16 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#17 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=project/view&id=2
+in D:\OpenServer\domains\localhost\myii\protected\models\Project.php (99)
+in D:\OpenServer\domains\localhost\myii\protected\models\Project.php (101)
+in D:\OpenServer\domains\localhost\myii\protected\views\project\view.php (41)
+2015/07/11 18:17:56 [error] [php] Illegal string offset 'label' (D:\OpenServer\domains\localhost\yii\framework\zii\widgets\CMenu.php:273)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(147): CMenu->init()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(180): IssueController->createWidget()
+#2 D:\OpenServer\domains\localhost\myii\protected\views\layouts\column2.php(16): IssueController->widget()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): IssueController->renderInternal()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(784): IssueController->renderFile()
+#6 D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php(107): IssueController->render()
+#7 unknown(0): IssueController->actionView()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): IssueController->runAction()
+#12 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterAccessControl()
+#15 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): IssueController->runActionWithFilters()
+#18 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): IssueController->run()
+#19 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=issue/view&id=3
+in D:\OpenServer\domains\localhost\myii\protected\views\layouts\column2.php (16)
+in D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php (107)
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/07/11 18:18:11 [error] [php] Illegal string offset 'label' (D:\OpenServer\domains\localhost\yii\framework\zii\widgets\CMenu.php:273)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(147): CMenu->init()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(180): IssueController->createWidget()
+#2 D:\OpenServer\domains\localhost\myii\protected\views\layouts\column2.php(16): IssueController->widget()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(126): require()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CBaseController.php(95): IssueController->renderInternal()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(784): IssueController->renderFile()
+#6 D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php(107): IssueController->render()
+#7 unknown(0): IssueController->actionView()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): IssueController->runAction()
+#12 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterAccessControl()
+#15 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): IssueController->runActionWithFilters()
+#18 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): IssueController->run()
+#19 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=issue/view&id=4
+in D:\OpenServer\domains\localhost\myii\protected\views\layouts\column2.php (16)
+in D:\OpenServer\domains\localhost\myii\protected\controllers\IssueController.php (107)
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/07/12 12:22:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in D:\OpenServer\domains\localhost\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/myii/index.php?r=user/admin
+HTTP_REFERER=http://localhost/myii/index.php
+---
+2015/07/12 12:22:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in D:\OpenServer\domains\localhost\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/myii/index.php?r=user/admin
+HTTP_REFERER=http://localhost/myii/index.php?r=user/admin
+---
+2015/07/12 12:22:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in D:\OpenServer\domains\localhost\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/myii/index.php?r=project/admin
+HTTP_REFERER=http://localhost/myii/index.php?r=user/admin
+---
+2015/07/12 14:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "wbs".' in D:\OpenServer\domains\localhost\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(270): CController->missingAction('wbs')
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('wbs')
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/wbs')
+#3 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/myii/index.php?r=message/wbs
+---
+2015/07/12 14:39:02 [error] [exception.CHttpException.503] exception 'CHttpException' with message 'Err: $ex' in D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:88
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebs()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webs')
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webs')
+#11 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/myii/index.php?r=message/webs
+---
+2015/07/12 14:40:17 [error] [exception.CHttpException.503] exception 'CHttpException' with message 'Err:exception 'CDbException' with message 'Невозможно обновить запись active record из-за того, что она новая.' in D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php:1180
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php(76): CActiveRecord->saveAttributes(Array)
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebs()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webs')
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webs')
+#12 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#14 {main}' in D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:88
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebs()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webs')
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webs')
+#11 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/myii/index.php?r=message/webs
+---
+2015/07/12 14:42:07 [error] [php] stream_socket_accept() expects parameter 1 to be resource, null given (D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:74)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/webs
+in D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (74)
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/07/12 14:44:04 [error] [exception.CHttpException.503] exception 'CHttpException' with message 'Err:exception 'CException' with message 'Не определено свойство "Message.name".' in D:\OpenServer\domains\localhost\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('name', 'try')
+#1 D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php(78): CActiveRecord->__set('name', 'try')
+#2 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebs()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webs')
+#12 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webs')
+#13 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#15 {main}' in D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:89
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebs()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webs')
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webs')
+#11 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/myii/index.php?r=message/webs
+---
+2015/07/12 14:44:44 [error] [php] stream_socket_accept() expects parameter 1 to be resource, null given (D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:74)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/webs
+in D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (74)
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/07/12 14:46:07 [error] [exception.CHttpException.503] exception 'CHttpException' with message 'Err:exception 'CDbException' with message 'Невозможно обновить запись active record из-за того, что она новая.' in D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php:1180
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php(76): CActiveRecord->saveAttributes(Array)
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebs()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webs')
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webs')
+#12 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#14 {main}' in D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:89
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebs()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webs')
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webs')
+#11 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/myii/index.php?r=message/webs
+---
+2015/07/12 14:46:36 [error] [exception.CHttpException.503] exception 'CHttpException' with message 'Err:exception 'CDbException' with message 'Невозможно обновить запись active record из-за того, что она новая.' in D:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php:1180
+Stack trace:
+#0 D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php(76): CActiveRecord->saveAttributes(Array)
+#1 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebs()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webs')
+#11 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webs')
+#12 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#14 {main}' in D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:89
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWebs()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webs')
+#10 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webs')
+#11 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/myii/index.php?r=message/webs
+---
+2015/07/13 12:54:31 [error] [php] fclose() expects parameter 1 to be resource, null given (D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:114)
+Stack trace:
+#0 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#2 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#5 D:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#8 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#9 D:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/webs
+in D:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (114)
+in D:\OpenServer\domains\localhost\myii\index.php (15)
+2015/07/26 17:28:30 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'. Выполнявшийся SQL-запрос: SELECT * FROM `tbl_user` `t` WHERE LOWER(username)=? LIMIT 1.
+in C:\OpenServer\domains\localhost\myii\protected\components\UserIdentity.php (21)
+in C:\OpenServer\domains\localhost\myii\protected\models\LoginForm.php (54)
+in C:\OpenServer\domains\localhost\myii\protected\controllers\SiteController.php (106)
+2015/07/26 17:28:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_user` `t` WHERE LOWER(username)=? LIMIT 1' in C:\OpenServer\domains\localhost\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\OpenServer\domains\localhost\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 C:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\OpenServer\domains\localhost\myii\protected\components\UserIdentity.php(21): CActiveRecord->find('LOWER(username)...', Array)
+#4 C:\OpenServer\domains\localhost\myii\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#5 C:\OpenServer\domains\localhost\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#6 C:\OpenServer\domains\localhost\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 C:\OpenServer\domains\localhost\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#8 C:\OpenServer\domains\localhost\myii\protected\controllers\SiteController.php(106): CModel->validate()
+#9 C:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/myii/index.php?r=site/login
+HTTP_REFERER=http://localhost/myii/index.php?r=site/login
+---
+2015/07/27 01:41:04 [error] [php] fclose() expects parameter 1 to be resource, null given (C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php:115)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#2 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#5 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#8 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#9 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/webs
+in C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (115)
+in C:\OpenServer\domains\localhost\myii\index.php (15)
+2015/07/27 02:18:52 [error] [php] stream_socket_pair() [<a href='function.stream-socket-pair'>function.stream-socket-pair</a>]: failed to create sockets: [10042]: ��� ������ getsockopt ��� setsockopt ��� ������ �����������, ������������ ��� ���������������� �������� ��� �������.
+ (C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php:38)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php(133): WebsocketServer->start()
+#1 C:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWsserver()
+#2 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#4 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#7 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#10 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#11 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/wsserver
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (38)
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (19)
+in C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (133)
+2015/07/27 02:19:29 [error] [php] stream_socket_pair() [<a href='function.stream-socket-pair'>function.stream-socket-pair</a>]: failed to create sockets: [10042]: ��� ������ getsockopt ��� setsockopt ��� ������ �����������, ������������ ��� ���������������� �������� ��� �������.
+ (C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php:37)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php(133): WebsocketServer->start()
+#1 C:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWsserver()
+#2 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#4 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#7 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#10 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#11 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/wsserver
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (37)
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (18)
+in C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (133)
+2015/07/27 02:40:13 [error] [php] stream_socket_pair() [<a href='function.stream-socket-pair'>function.stream-socket-pair</a>]: failed to create sockets: [10042]: ��� ������ getsockopt ��� setsockopt ��� ������ �����������, ������������ ��� ���������������� �������� ��� �������.
+ (C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php:36)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php(133): WebsocketServer->start()
+#1 C:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWsserver()
+#2 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#4 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#7 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#10 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#11 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/wsserver
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (36)
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (17)
+in C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (133)
+2015/07/27 03:39:25 [error] [php] fclose() expects parameter 1 to be resource, null given (C:\OpenServer\domains\localhost\myii\protected\components\WebsocketTry.php:59)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWsserver()
+#1 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#3 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#6 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#9 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#10 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/wsserver
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketTry.php (59)
+in C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (134)
+in C:\OpenServer\domains\localhost\myii\index.php (15)
+2015/07/27 03:39:56 [error] [php] fclose() expects parameter 1 to be resource, null given (C:\OpenServer\domains\localhost\myii\protected\components\WebsocketTry.php:59)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWsserver()
+#1 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#3 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#6 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#9 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#10 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/wsserver
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketTry.php (59)
+in C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (134)
+in C:\OpenServer\domains\localhost\myii\index.php (15)
+2015/07/30 07:56:23 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\OpenServer\domains\localhost\yii\framework\db\CDbCommand.php:335)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\yii\framework\db\ar\CActiveRecord.php(809): Message->insert()
+#1 C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php(284): Message->save()
+#2 C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php(59): WebsocketServer->onMessage()
+#3 C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php(134): WebsocketServer->start()
+#4 C:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionWsserver()
+#5 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): MessageController->runAction()
+#7 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): MessageController->filterAccessControl()
+#10 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#13 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#14 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=message/wsserver
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (284)
+in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (59)
+in C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (134)

@@ -1,0 +1,140 @@
+#gtw
+ {
+	position: relative; 
+	text-align: left;
+	width:98%;
+/*	border: 1px solid black;  Параметры границы */
+}
+#gtw td
+{ 
+	padding:20px 10px 0px;
+	/* border: 1px dashed blue;  Параметры границы */
+ /* vertical-align:bottom; 	*/
+}
+
+ td.gtwleft  
+{ 
+	margin-right: 10px;
+	width:50%;
+	border-right: 1px solid black;  /*Параметры границы */
+}
+ td.gtwright
+{ 
+	width:50%;
+}
+#gtw  table.tb1 td
+{ 
+	padding:0px;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin:0;
+	height: auto; /* Параметры границы */
+}
+#gtw  table.tb1 td.tb1_td2
+{ 
+	text-align:right;
+}
+#gtw  table.tb1 img
+{ 
+	width: 96px;
+	height: 24px;
+}
+
+#gtw  table.tb2 td
+{
+	padding:0px;
+	vertical-align: top;
+	width: 50%;
+	text-align:center;
+}
+#gtw  table.tb2 ul
+{
+	text-align: left;
+	list-style: none;
+	font: 12px Arial,Helvetica,sans-serif;
+	color: #009CB3;
+}
+#gtw  table.tb2 ul ul 
+{
+	text-align: left;
+	list-style: circle inside;
+	color: black;
+}
+#gtw  table.tb2
+{ 
+	margin:0;
+	 height: 100%; /* Параметры границы */
+}
+#gtw  table.tb2 img
+{ 
+	width: 80%;
+}
+#gtw  table.tb2 td.tb2_td3
+{ 
+	text-align: right;
+	vertical-align: bottom;
+}
+#gtw  table.tb2 td.tb2_td3 img
+ {
+	width: 40px;
+	height: 40px;
+}
+#gtw td.bottom_td
+{ 
+	height:auto;
+	vertical-align:bottom;
+	padding: 0px 10px;
+	text-align:right;
+	}
+#gtw td.bottom_td img
+{ 
+	width: 40px;
+	height: 40px;
+}
+
+#gtw td.bottom_td table
+{ 
+	border: 1px solid grey;
+	text-align: left;
+	border-spacing: 0;
+	width: 100%;
+	float: right;
+	margin-bottom:0px;
+	display: table;
+}
+#gtw td.bottom_td table td
+{ 
+	border: 1px solid grey;
+	border-collapse: separate;
+	border-spacing: 0;
+	vertical-align: middle;
+	height: auto;
+	padding: 0px;
+	text-align: center;
+	width: 0%;
+}
+#gtw td.bottom_td table td.caption
+ {
+	text-align: left;
+	color: white;
+	background: #009CB3;
+	font-size: 120%;
+	padding: 5px;
+}
+#gtw td.bottom_td table td img {
+	width: 30px;
+	height: 60px;
+/*	float: left;*/
+}
+#gtw td.bottom_td table table 
+{
+	width: 100%;
+/*	table-layout: fixed;*/
+	border: 0px none;
+}
+#gtw td.bottom_td table table td
+ {
+	width: auto;
+/*	width: 100%;*/
+	padding: 5px 5px;
+}

@@ -1,0 +1,306 @@
+   body 
+   {
+    font: 10px Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+   background: #fff; /* Цвет фона */
+  /*   background: #f0f0f0;  Цвет фона левой колонки */
+    color: #224; /* Цвет текста */
+	height:100%;
+/*    width: 100%;  Ширина макета */
+  }
+    #container
+   {
+    width: 98%; /* Ширина макета */
+/*	height:100%;*/
+    margin: 10px auto; /* Выравниваем по центру */
+	margin-top:60px; /*Цвет фона левой колонки */
+    background: #fff; 
+/*	border-bottom:1px dashed black;*/
+
+   }
+   #container td
+   {
+ 	vertical-align:top;  
+   }
+
+   #header 
+   { 
+    font-size: 1.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+	background:  #009CB3;  /*Цвет фона подвала */
+ 	background: -moz-linear-gradient(top ,#00a1b2 0%, #018896  100%) repeat scroll 0 0 ;
+	background: -ms-linear-gradient(top ,#00a1b2 0%, #018896  100%) repeat scroll 0 0;
+	background: -o-linear-gradient(top ,#00a1b2 0%, #018896  100%) repeat scroll 0 0;
+	background: -webkit-linear-gradient(top ,#00a1b2 0%, #018896  100%) repeat scroll 0 0;
+    color: #8f8f8f; /* Цвет фона подвала */
+    width:100%;
+    margin: 0 auto; /* Выравниваем по центру */
+ 	float:none;
+	position:fixed;
+	top:0px;
+    z-index:6;            
+ }
+ #header      h1 
+ {
+    font-weight: bold; /* Нормальное начертание */
+    color: #fff; /* Цвет фона подвала */
+	padding:0px 42px;
+	margin:0px;
+    font-size: 18px; /* Размер текста */
+    text-align: right; /* Выравнивание по центру */
+}	
+   #footer 
+   { 
+ 	vertical-align:bottom;
+	width: 100%; /* Ширина макета */
+    margin: 0px auto; /* Выравниваем по центру */
+	color:#eee;
+    clear: both; /* Отменяем действие float */
+/*	float:left;*/
+    padding: 5px 25px; /* Отступы вокруг текста */
+	background:  #009CB3;  /*Цвет фона подвала */
+ 	background: -moz-linear-gradient(top ,#00a1b2 0%, #018896  100%) repeat scroll 0 0 ;
+	background: -ms-linear-gradient(top ,#00a1b2 0%, #018896  100%) repeat scroll 0 0;
+	background: -o-linear-gradient(top ,#00a1b2 0%, #018896  100%) repeat scroll 0 0;
+	background: -webkit-linear-gradient(top ,#00a1b2 0%, #018896  100%) repeat scroll 0 0;
+
+    }
+#content
+{
+	padding-left:20px;
+}
+#content ul
+{
+
+	list-style: none; 
+	color:black;
+	font-weight:bold;
+	font-size:12px;
+}
+#content ul ul a, #content ul ul a:visited
+{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+#content ul ul ul a,#content ul ul ul a:visited
+{
+	font-weight:normal;	
+}
+#content ul ul div, #content ul ul ul div
+{
+	text-align:right;
+	padding:0px;
+	margin:0px;
+	float:right;
+}
+   .blockleft
+   {
+	text-align: left; 
+	float: left;
+	width: 50%; 
+	clear:left;
+	margin-right:10px;
+	padding:20px;
+		/*	padding-bottom:20px;*/
+	border-right: 1px black solid;
+	
+ }
+    .blockright 
+   {
+    text-align: left;
+    padding: 20px 20px 20px 10px;
+ 	margin-left: 50%;/* Ширина колонок */
+	width: 48%; 
+
+}
+   .blockleft ul ul, .blockright ul ul
+	{
+		text-align: left;
+		list-style: circle inside; 
+	/*	font: 10px Arial,Helvetica,sans-serif;*/
+
+		color:black;
+		
+	}
+ .blockleft ul, .blockright ul
+{
+		text-align: left;
+		list-style: none; 
+		font: 12px Arial,Helvetica,sans-serif;
+		color: #009CB3; /* Цвет фона подвала */
+		padding-left:5px;
+}
+
+   #contents table
+   {
+	width:98%;
+	margin:auto;
+   }
+/* #contents div,  #contents table
+	{
+        display:block;
+		display:none;
+    }
+*/	
+ #contents  td
+	 { 
+		text-align:right;
+		vertical-align:top;	
+		width:50%;
+		height:100%;
+	 }	
+	
+#contents table td.first_child td
+	 { 
+		font-size: 1.4em;
+		font-weight:bold;
+		text-align:left;
+		vertical-align:top;
+		height:auto;
+	
+	}
+	
+#contents table td.first_child  table
+	 { 
+		text-align:left;
+		width:100%;
+		border:0px;
+		display:table;
+	 }	
+#contents table td.first_child table td
+	 { 
+		text-align:left;
+		width:100%;
+		border:0px;
+
+	 }	
+ #contents  table td.buttons
+	 { 
+		text-align:right;
+		vertical-align:bottom;	
+	}	
+#contents table td.last_child
+	{
+		padding:0px;
+ 		vertical-align:bottom;
+		height:auto;
+  }
+  #contents table td.last_child table
+	{
+ 		border:1px solid grey;
+		text-align:left;
+		border-spacing:0;
+		width:100%;
+		float:right; 
+		display:table;
+	}
+
+
+#contents table td.last_child table td 
+	{
+		border:1px solid grey;
+		text-align:center;	
+		width:0%;
+		padding:0px;
+		vertical-align:middle;
+    }
+#contents table td.last_child table td.last_childi 
+	{
+		border:1px solid grey;
+		text-align:center;	
+		width:100%;
+		padding:0px;
+		vertical-align:middle;
+    }
+
+	
+#contents table td.last_child table td.body
+	{
+		width:auto;
+ 		vertical-align:middle;
+ 		padding: 0px 5px; 
+	}
+	
+	#contents table td.last_child table td.caption
+	{
+		text-align:left;
+		color:#fff;
+		background: #009CB3; /* Цвет фона */
+		font-size:120%;
+		padding:5px;
+		
+    }
+#contents table td.last_child table table
+	{
+		width:100%;
+		table-layout:fixed;
+		border:0px none;
+    }
+#contents table td.last_child table table td
+	{
+		width:auto;
+		padding:5px 5px;
+    }
+ #contentsi table a
+{
+        display:block;
+        float:right;
+        width:260px;
+        height:260px;
+        line-height:70px;
+        overflow:hidden;
+        position:relative;
+        z-index:1;
+		margin-bottom:30px;	
+	
+        }
+ 
+		
+ #contents td img
+	{
+		width: 80%; 
+/*		height: 80%; */
+
+	}
+#contents  img.logo 
+	{
+		width: 80px; 
+		height: 20px; 
+	}
+#contents  img.body 
+	{
+		width: 30px; 
+		height: 60px; 
+		float:left;
+	}
+#contents  img.lable 
+	{
+		width: 40px; 
+		height: 40px; 
+	}
+#blank
+{
+	height:200px;
+	display:none;
+}
+		
+	.tip
+ {
+     /* display: none;*/
+		visibility:hidden;
+        position:absolute; 
+        overflow: auto; 
+		float:right;
+		width:250px;
+        background-color: #af9;
+		color:#506;
+		font-size:12px;
+		font-style: italic;
+		text-align:left;
+		padding:3px;
+		z-index:2;
+		border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+    }

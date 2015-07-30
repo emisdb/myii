@@ -1,0 +1,20 @@
+.carousel-caption
+{
+    width:720px;
+    font-size:12px;
+    text-align: left;
+}
+.carousel-caption a
+{
+ color:#7ab5d3;
+}
+a
+{
+    font-size: 1.2em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    margin: 0px 5px;
+}
+.navbar-header a
+{
+    font-weight: bold;
+}

@@ -4,9 +4,11 @@ class WebsocketServer
     private $config;
     private $calls;
     private $log;
+    private $run;
     public function __construct($config) {
         $this->config = $config;
         $this->calls=0;
+        $this->run=true;
         $this->log = fopen(Yii::app()->params['logfile'], "w") or die("No file");
          }
          public function __destruct() {
@@ -25,7 +27,7 @@ class WebsocketServer
         }
         fwrite($this->log, "Start:".$this->calls."\n");
         $connects = array();
-                while ($this->calls<5) {
+                while ($this->run) {
            //socket array:
              $read = $connects;
              $read []= $socket;
@@ -58,7 +60,9 @@ class WebsocketServer
 
             $this->onMessage($connect, $data);//user action
             }
-        }
+            fwrite($this->log, "I".$this->calls." R1:".count($read)." : ".implode(";",$read)." - C1:".count($connects)." : ".implode(";",$connects)."\n");
+            $this->calls++;
+    }
 
         fclose($socket);
                    }
@@ -278,7 +282,9 @@ protected function onMessage($connect, $data) {
     $ddata=$this->decodedata($data);
     $retd=$ddata['payload'] . "\n";
     fwrite($connect, $this->encodedata("R:".$this->calls));
-   $this->calls++;
+    fwrite($this->log, "M(".$connect."):".$retd."\n");
+    if(substr($retd,0,5)=="xstop") $this->run=false;
+
 }
 
 }

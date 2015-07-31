@@ -1325,3 +1325,13 @@ REQUEST_URI=/myii/index.php?r=message/wsserver
 in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (284)
 in C:\OpenServer\domains\localhost\myii\protected\components\WebsocketServer.php (59)
 in C:\OpenServer\domains\localhost\myii\protected\controllers\MessageController.php (134)
+2015/07/31 16:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "webserver".' in D:\wsp\OpenServer\domains\localhost\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\wsp\OpenServer\domains\localhost\yii\framework\web\CController.php(270): CController->missingAction('webserver')
+#1 D:\wsp\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): CController->run('webserver')
+#2 D:\wsp\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('message/webserv...')
+#3 D:\wsp\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wsp\OpenServer\domains\localhost\myii\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/myii/index.php?r=message/webserver
+---

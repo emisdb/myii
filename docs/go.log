@@ -1,1 +1,45 @@
 Start:0
+I0 R1:1 : Resource id #36 - C1:0 : 
+I0 R1:0 :  - C1:1 : Resource id #37
+I1 R1:1 : Resource id #37 - C1:1 : Resource id #37
+M(Resource id #37):Connection with "ws://127.0.0.1:8000" Cjnnection is perfectly sey!
+
+I1 R1:1 : Resource id #37 - C1:1 : Resource id #37
+I2 R1:1 : Resource id #37 - C1:1 : Resource id #37
+M(Resource id #37):Fox hello
+
+I2 R1:1 : Resource id #37 - C1:1 : Resource id #37
+I3 R1:1 : Resource id #36 - C1:1 : Resource id #37
+I3 R1:0 :  - C1:2 : Resource id #37;Resource id #38
+I4 R1:1 : Resource id #38 - C1:2 : Resource id #37;Resource id #38
+M(Resource id #38):Connection with "ws://127.0.0.1:8000" Cjnnection is perfectly sey!
+
+I4 R1:1 : Resource id #38 - C1:2 : Resource id #37;Resource id #38
+I5 R1:1 : Resource id #38 - C1:2 : Resource id #37;Resource id #38
+M(Resource id #38):Chrom hello
+
+I5 R1:1 : Resource id #38 - C1:2 : Resource id #37;Resource id #38
+I6 R1:1 : Resource id #38 - C1:2 : Resource id #37;Resource id #38
+M(Resource id #38):
+
+I6 R1:1 : Resource id #38 - C1:2 : Resource id #37;Resource id #38
+I7 R1:1 : Resource id #37 - C1:2 : Resource id #37;Resource id #38
+M(Resource id #37):Fox alone
+
+I7 R1:1 : Resource id #37 - C1:2 : Resource id #37;Resource id #38
+I8 R1:1 : Resource id #36 - C1:2 : Resource id #37;Resource id #38
+I8 R1:0 :  - C1:3 : Resource id #37;Resource id #38;Resource id #39
+I9 R1:1 : Resource id #39 - C1:3 : Resource id #37;Resource id #38;Resource id #39
+M(Resource id #39):Connection with "ws://127.0.0.1:8000" Cjnnection is perfectly sey!
+
+I9 R1:1 : Resource id #39 - C1:3 : Resource id #37;Resource id #38;Resource id #39
+I10 R1:1 : Resource id #38 - C1:3 : Resource id #37;Resource id #38;Resource id #39
+I10 R1:1 : Resource id #38 - C1:2 : Resource id #37;Resource id #39
+I11 R1:1 : Resource id #39 - C1:2 : Resource id #37;Resource id #39
+M(Resource id #39):Chrom again here
+
+I11 R1:1 : Resource id #39 - C1:2 : Resource id #37;Resource id #39
+I12 R1:1 : Resource id #37 - C1:2 : Resource id #37;Resource id #39
+M(Resource id #37):Fox try to stop
+
+I12 R1:1 : Resource id #37 - C1:2 : Resource id #37;Resource id #39

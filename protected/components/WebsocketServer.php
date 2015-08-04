@@ -5,11 +5,13 @@ class WebsocketServer
     private $calls;
     private $log;
     private $run;
+    private $connects;
     public function __construct($config) {
         $this->config = $config;
         $this->calls=0;
         $this->run=true;
-        $this->log = fopen(Yii::app()->params['logfile'], "w") or die("No file");
+        $this->connects = array();
+       $this->log = fopen(Yii::app()->params['logfile'], "w") or die("No file");
          }
          public function __destruct() {
              fclose($this->log);
@@ -26,10 +28,9 @@ class WebsocketServer
             die("$errstr ($errno)\n");
         }
         fwrite($this->log, "Start:".$this->calls."\n");
-        $connects = array();
-                while ($this->run) {
+               while ($this->run) {
            //socket array:
-             $read = $connects;
+             $read = $this->connects;
              $read []= $socket;
              $write = $except = null;
 
@@ -37,12 +38,12 @@ class WebsocketServer
      //waiting for socket data
              break;
              }
-       fwrite($this->log, "I".$this->calls." R1:".count($read)." : ".implode(";",$read)." - C1:".count($connects)." : ".implode(";",$connects)."\n");
+       fwrite($this->log, "I".$this->calls." R1:".count($read)." : ".implode(";",$read)." - C1:".count($this->connects)." : ".implode(";",$this->connects)."\n");
  
          if (in_array($socket, $read)) {//new connection
              //accept connection and handshake:
              if (($connect = stream_socket_accept($socket, -1)) && $info = $this->handshake($connect)) {
-                 $connects[] = $connect;//add to list
+                 $this->connects[] = $connect;//add to list
                  $this->onOpen($connect, $info);//user action
              }
              unset($read[ array_search($socket, $read) ]);
@@ -53,14 +54,14 @@ class WebsocketServer
 
                 if (!$data) { //connection is closed
                     fclose($connect);
-                    unset($connects[ array_search($connect, $connects) ]);
+                    unset($this->connects[ array_search($connect, $this->connects) ]);
                     $this->onClose($connect);//user action
                     continue;
                 }
 
             $this->onMessage($connect, $data);//user action
             }
-            fwrite($this->log, "I".$this->calls." R1:".count($read)." : ".implode(";",$read)." - C1:".count($connects)." : ".implode(";",$connects)."\n");
+            fwrite($this->log, "J".$this->calls." R1:".count($read)." : ".implode(";",$read)." - C1:".count($this->connects)." : ".implode(";",$this->connects)."\n");
             $this->calls++;
     }
 
@@ -270,21 +271,27 @@ protected function decodedata($data)
 //пользовательские сценарии:
 
 protected function onOpen($connect, $info) {
-    echo "open\n";
-    fwrite($connect, $this->encodedata(implode(";", $info)));
+    fwrite($this->log, "O".$this->calls.":"." - C1:".count($this->connects)." : ".implode(";",$this->connects)."\n");
+    fwrite($connect, $this->encodedata(implode(";",$info)));
 }
 
 protected function onClose($connect) {
-    echo "close\n";
+    fwrite($this->log, "C".$this->calls.":"." - C1:".count($this->connects)." : ".implode(";",$this->connects)."\n");
 }
 
 protected function onMessage($connect, $data) {
     $ddata=$this->decodedata($data);
     $retd=$ddata['payload'] . "\n";
-    fwrite($connect, $this->encodedata("R:".$this->calls));
     fwrite($this->log, "M(".$connect."):".$retd."\n");
     if(substr($retd,0,5)=="xstop") $this->run=false;
-
+    $this->toAll($retd,$connect);
+}
+protected function toAll($data, $except=null) {
+    foreach ($this->connects as $connect) {
+//        if($connect == $except ) continue;
+       fwrite($connect, $this->encodedata("M:".$connect.":".$data));
+    
+    }
 }
 
 }

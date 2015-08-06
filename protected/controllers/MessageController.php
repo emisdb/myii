@@ -132,6 +132,7 @@ class MessageController extends Controller
 //            $WebsocketServer = new WebsocketServer($config);
             $WebsocketServer = new WebsocketServer($config);
             $WebsocketServer->start();
+            $this->renderText("server closed");
         }
         public function actionTest()
 	{

@@ -33,7 +33,7 @@
 
 
 	function connectionOpen() {
-	   socket.send("Connection with \""+document.getElementById("sock-addr").value+"\" Cjnnection is perfectly sey!");
+	   socket.send("Connection with \""+document.getElementById("sock-addr").value+"\" Connection is perfectly set!");
 	}
 
 	function messageReceived(e) {
@@ -43,7 +43,7 @@
 
     function connectionClose() {
         socket.close();
-        document.getElementById("sock-info").innerHTML += "Cjnnection is closed <br />";
+        document.getElementById("sock-info").innerHTML += "Connection is closed <br />";
     }
 
 

@@ -28,7 +28,7 @@ class ProjectController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','chart'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -60,6 +60,20 @@ class ProjectController extends Controller
             ));
             
             $this->render('view',array('model'=>$this->loadModel($id),
+            'issueDataProvider'=>$issueDataProvider,
+            ));
+}
+	public function actionChart($id)
+	{
+            $issueDataProvider=new CActiveDataProvider('Issue',array(
+            'criteria'=>array(
+                'condition'=>'project_id=:projectId',
+                'params'=>array(':projectId'=>$this->loadModel($id)->id),
+                ),
+                'pagination'=>array('pageSize'=>10,),
+            ));
+            
+            $this->render('diagram',array('model'=>$this->loadModel($id),
             'issueDataProvider'=>$issueDataProvider,
             ));
 }

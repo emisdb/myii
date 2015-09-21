@@ -1430,3 +1430,27 @@ Stack trace:
 REQUEST_URI=/myii/index.php?r=site/login
 HTTP_REFERER=http://localhost/myii/index.php?r=site/login
 ---
+2015/09/19 22:20:01 [error] [php] Invalid argument supplied for foreach() (C:\OpenServer\domains\localhost\myii\protected\views\project\diagram.php:47)
+Stack trace:
+#0 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(869): ProjectController->renderFile()
+#1 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(782): ProjectController->renderPartial()
+#2 C:\OpenServer\domains\localhost\myii\protected\controllers\ProjectController.php(78): ProjectController->render()
+#3 unknown(0): ProjectController->actionChart()
+#4 C:\OpenServer\domains\localhost\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\OpenServer\domains\localhost\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#8 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\OpenServer\domains\localhost\yii\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#11 C:\OpenServer\domains\localhost\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\OpenServer\domains\localhost\yii\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#14 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(282): ProjectController->run()
+#15 C:\OpenServer\domains\localhost\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\OpenServer\domains\localhost\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\localhost\myii\index.php(15): CWebApplication->run()
+REQUEST_URI=/myii/index.php?r=project/chart&id=3
+in C:\OpenServer\domains\localhost\myii\protected\views\project\diagram.php (47)
+in C:\OpenServer\domains\localhost\myii\protected\controllers\ProjectController.php (78)
+in C:\OpenServer\domains\localhost\myii\index.php (15)

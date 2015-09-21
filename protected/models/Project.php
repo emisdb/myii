@@ -107,6 +107,27 @@ public function getStateText()
             }
             return $issuesArray;
         }
+       public function getIssueDiagram($model=null)
+        {
+            $issuesArray=array();
+            if(is_null($model)) $issues=$this->issues_null;
+            else $issues=$model->issues;
+            foreach ($issues as $value) {
+				$link=chtml::link("x",array('issue/view','id'=>$value->id));
+				$pos=strpos($link,"href=");
+				$link=  substr($link,$pos+6, strpos($link,"\"",$pos+6)-$pos-6);
+                $arr=array('name'=>$value->name,
+							'type'=>$value->getTypeText(),
+							'link'=>$link,
+							'id'=>$value->id,
+							'description'=>$value->description,
+							'status'=>$value->getStatusText(),
+                    );
+                if(count($value->issues)>0) $arr['items']=$this->getIssueDiagram($value);
+               $issuesArray[]=$arr; 
+            }
+            return $issuesArray;
+        }
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */

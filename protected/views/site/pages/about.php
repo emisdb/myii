@@ -1,7 +1,8 @@
     <?php
 
 	Yii::app()->clientScript->registerCoreScript('jquery.ui'); 
-	Yii::app()->clientScript->registerScriptFile(Yii::app()->request->baseUrl.'/js/myjs.js'); 
+	Yii::app()->clientScript->registerScriptFile(Yii::app()->request->baseUrl.'/js/jquery.flip.min.js',CClientScript::POS_HEAD); 
+	Yii::app()->clientScript->registerScriptFile(Yii::app()->request->baseUrl.'/js/myjs.js',CClientScript::POS_HEAD); 
 	$this->pageTitle=Yii::app()->name . ' - о нас';
 
 	?>
@@ -25,6 +26,18 @@
 <div id="layer6">
     Bureau
 </div> 
+	<div style="position:relative;">
+		<div style="position:static;margin-left: 600px;">
+			<div id="card"> 
+				<div class="front" style= "height: 100%; width: 100%; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateX(0deg);"> 
+					<?php echo CHtml::image(Yii::app()->request->baseUrl."/images/my_pic.jpg", "me", array("style"=>"margin:10px;"))?>
+				</div> 
+				<div class="back" style="transform: rotateX(180deg); height: 100%; width: 100%; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
+					<?php echo CHtml::image(Yii::app()->request->baseUrl."/images/my_pic_equip.jpg", "me", array("style"=>"margin:10px;"))?>
+				</div> 
+			</div>
+		</div>
+			
 <ul class="contacts">
         <li>
             Контактное лицо: <b>Денис</b>
@@ -55,4 +68,11 @@
             </ul>
 </li>
     </ul>
-     	</div><!---->  
+     	</div>
+</div><!---->  
+<script type="text/javascript">
+$("#card").flip({
+  axis: 'y',
+  trigger: 'hover'
+});
+</script>

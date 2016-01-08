@@ -20,7 +20,7 @@
 				<div class="slide_caption">
                                     <ul>
                                         <li>
-                                            создание и редакции сайтов на основе CMS Joomla и Wordpress, разработка Joomla компонентов и плагинов
+                                            создание и редакция сайтов на основе CMS Joomla и Wordpress, разработка Joomla компонентов и плагинов
                                         </li>
                                         <li>
                                             разработка сайтов и Web-приложений любой сложности на основе Yii Framework; 

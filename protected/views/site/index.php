@@ -16,7 +16,7 @@
 		<li class="slide1">
 			<div class="slide_handle"><div>Web программирование</div></div>
 			<div class="slide_content">
-                                 Разработка и внедрение сайтов и приложений в сети Интернет :
+                                 Разработка и внедрение сайтов и web-приложений в сети Интернет :
 				<div class="slide_caption">
                                     <ul>
                                         <li>

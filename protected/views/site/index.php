@@ -20,10 +20,10 @@
 				<div class="slide_caption">
                                     <ul>
                                         <li>
-                                            создания и редакции существующих сайтов на основе CMS Joomla и Wordpress, разработка Joomla компонентов и плагинов
+                                            создание и редакции сайтов на основе CMS Joomla и Wordpress, разработка Joomla компонентов и плагинов
                                         </li>
                                         <li>
-                                            разработка сайтов и Web-приложений на основе Yii Framework; 
+                                            разработка сайтов и Web-приложений любой сложности на основе Yii Framework; 
                                            <?php echo CHtml::link('имеется ряд готовых разработок',array('/bsp')); ?> 
                                        </li>
                                         <li>

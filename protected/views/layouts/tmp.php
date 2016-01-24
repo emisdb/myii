@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+п»ї<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
 
 	<!-- blueprint CSS framework -->
@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
 
 <div class="top">
 	<div id="mainmenu">
@@ -59,18 +58,18 @@ a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></script>
 js=13;//--></script><script language="javascript" type="text/javascript"><!--
 d.write('<a href="http://top.mail.ru/jump?from=1804964" target="_top">'+
 '<img src="http://da.c8.bb.a1.top.mail.ru/counter?id=1804964;t=214;js='+js+
-a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+
+a+';rand='+Math.random()+'" alt="Р РµР№С‚РёРЅРі@Mail.ru" border="0" '+
 'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');//--></script>
 <noscript><a target="_top" href="http://top.mail.ru/jump?from=1804964">
 <img src="http://da.c8.bb.a1.top.mail.ru/counter?js=na;id=1804964;t=214" 
-height="31" width="88" border="0" alt="Рейтинг@Mail.ru"></a></noscript>
+height="31" width="88" border="0" alt="Р РµР№С‚РёРЅРі@Mail.ru"></a></noscript>
 <script language="javascript" type="text/javascript"><!--
 if(11<js)d.write('--'+'>');//--></script>
-<!--// Rating@Mail.ru counter--><a href='http://www.rosmed.ru/' alt='Rosmed.Ru - Медицинский портал' target=_blank> <img src='http://www.rosmed.ru/btn_rosmed.gif' alt='Rosmed.Ru - Медицинский портал' style='border:1px gray solid;'> </a><!--Openstat--><span id="openstat2085602"></span><script type="text/javascript">
+<!--// Rating@Mail.ru counter--><a href='http://www.rosmed.ru/' alt='Rosmed.Ru - РњРµРґРёС†РёРЅСЃРєРёР№ РїРѕСЂС‚Р°Р»' target=_blank> <img src='http://www.rosmed.ru/btn_rosmed.gif' alt='Rosmed.Ru - РњРµРґРёС†РёРЅСЃРєРёР№ РїРѕСЂС‚Р°Р»' style='border:1px gray solid;'> </a><!--Openstat--><span id="openstat2085602"></span><script type="text/javascript">
 var openstat = { counter: 2085602, image: 5005, next: openstat }; document.write(unescape("%3Cscript%20src = %22http" +
 (("https:" == document.location.protocol) ? "s" : "") +
 "://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E"));
-</script><!--/Openstat--><a href='http://www.rusmed.ru/' title='Участник медицинского портала Русмед'><img src='http://www.rusmed.ru/img/btn_rusmed_1.png' border=0 alt='Участник медицинского портала Русмед'></a>      
+</script><!--/Openstat--><a href='http://www.rusmed.ru/' title='РЈС‡Р°СЃС‚РЅРёРє РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РїРѕСЂС‚Р°Р»Р° Р СѓСЃРјРµРґ'><img src='http://www.rusmed.ru/img/btn_rusmed_1.png' border=0 alt='РЈС‡Р°СЃС‚РЅРёРє РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РїРѕСЂС‚Р°Р»Р° Р СѓСЃРјРµРґ'></a>      
 <br/>Copyright &copy; <?php echo date('Y'); ?> by EMIS.DB.
 		All Rights Reserved.<br/>
 		<?php echo Yii::powered(); ?>

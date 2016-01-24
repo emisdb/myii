@@ -6,11 +6,11 @@
 	$css=Yii::app()->request->baseUrl."/css/countdown.css";
 	$cs = Yii::app()->getClientScript();
 	$cs->registerCssFile($css);
-	$this->pageTitle=Yii::app()->name . ' - отсчет';
+	$this->pageTitle=Yii::app()->name . ' - РѕС‚СЃС‡РµС‚';
 
 	?>
 <div class="canvas_center">
-				<h2>До начала работы сайта</h2> 
+				<h2>Р”Рѕ РЅР°С‡Р°Р»Р° СЂР°Р±РѕС‚С‹ СЃР°Р№С‚Р°</h2> 
 				<div id="countdown_wrap">
 					<div id="countdown">
 						<div id="defaultCountdown"></div>
@@ -26,7 +26,7 @@
 			$(function () {
 				var austDay = new Date();
 				// the numbers are the date you're counting down to: year, month-1, day
-				austDay = new Date(new Date(2012, 10-1, 29));
+				austDay = new Date(new Date(2016, 10-1, 29));
 				// change the number in the timezone to adjust the end time
 				$('#defaultCountdown').countdown({until: austDay, timezone: -8});
 				$('#year').text(austDay.getFullYear());

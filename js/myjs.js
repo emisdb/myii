@@ -39,7 +39,7 @@ $(function(){
       			$("li.movable").animate({ width: "45px"}, 500 );
     		});
 
-	// Accordion Demo #1
+//	 Accordion Demo #1
 	$('#accordion1').accordionza({
 		autoPlay: true,
 		captionDelay: 1000,

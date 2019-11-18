@@ -56,13 +56,13 @@
            <ul>
                <li>
                 <?php 
- echo("<a href='".Yii::app()->request->baseUrl."/docs/Portfolio.doc'>Скачать в формате DOC на русском</a>");
+ echo("<a href='".Yii::app()->request->baseUrl."/docs/Portfolio.pdf' target='_blank'>Скачать в формате PDF на русском</a>");
                  ?>
             </li>
 
             <li>
                 <?php 
- echo("<a href='".Yii::app()->request->baseUrl."/docs/Port_eng.doc'>English Portfolio in DOC format</a>");
+ echo("<a href='".Yii::app()->request->baseUrl."/docs/Port_eng.pdf' target='_blank' >English Portfolio in PDF format</a>");
                  ?>
             </li>
             </ul>

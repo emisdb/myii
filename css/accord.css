@@ -94,6 +94,7 @@ transform: rotate(270deg);
 }
 #accordion1 a:hover { text-decoration:none; }
 #accordion1 .slide1 .slide_content { background:url(../images/bg/bg_slide_1.jpg)100% 0; }
+/*#accordion1 .slide2 .slide_content { background:url(../images/bg/data-breach.jpg) 100% 0; background-size:100%;}*/
 #accordion1 .slide2 .slide_content { background:url(../images/bg/random_grey_variations.png) repeat }
 #accordion1 .slide3 .slide_content { background:url(../images/bg/carbon_fibre_v2.png) repeat }
 #accordion1 .slide4 .slide_content { background:url(../images/bg/small_steps.png) repeat;

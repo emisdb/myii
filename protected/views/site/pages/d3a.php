@@ -3,26 +3,11 @@
 	$this->pageTitle="ds sample";
 	?>
 <h1>D3.JS Experiments</h1>
+<div style="height: 200px;"></div>
 <div id="xsvg">
-    <svg width="550" height="300" style="border: #000 dotted thin; background-color: #fff;">
-	<line x1="0" y1="0" x2="550" y2="300" style="stroke:#8f0; stroke-width:3;"  />
-		<circle ondblclick="alert('what the fuck!')" 
-				cx="50" cy="50" r="75" style="fill:#bbb;stroke:#088;stroke-width:3;fill-opacity:0.9;"  />
-		<rect x="130" y="80" width="80" height="80" rx="3" ry="10" style="fill:#f0f; stroke-width:3; stroke:#454;fill-opacity:0.2; stroke-opacity:0.9;" />
-		<ellipse cx="280" cy="60" rx="60" ry="35" style="fill:#68f; stroke-width:3;stroke:#f86;" />
-		<a xlink:href="<?php echo(Yii::app()->request->baseUrl."/index.php?r=project/admin");?>"> 
-		<polygon points="40,200 80,200 100,250 20,250" style="fill:-webkit-linear-gradient(bottom ,#363 0%,#4a4 100%) repeat scroll 0 0 transparent;" />
-		</a>
-		<text x="60" y="250" fill="#fff">We do what we think</text>
-   </svg>
- </div>
-<p>
-	<object width="380" height="100" data="<?php echo Yii::app()->request->baseUrl.'/images/tooltip_final_0.svg' ?>" type="image/svg+xml">
-		
-	</object></p>
  <?php echo '<?xml version="1.0" encoding="UTF-8" standalone="no"'; ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onload="init(evt)" width="380" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onload="init(evt)" width="380" height="300">
 
   <style>
     .tooltip{
@@ -49,9 +34,8 @@
 
 	function ShowTooltip(evt, mouseovertext)
 	{
-		alert("go");
-	    tooltip.setAttributeNS(null,"x",evt.clientX+11);
-	    tooltip.setAttributeNS(null,"y",evt.clientY+27);
+	    tooltip.setAttributeNS(null,"x",evt.clientX-10);
+	    tooltip.setAttributeNS(null,"y",evt.clientY-10);
 	    tooltip.firstChild.data = mouseovertext;
 	    tooltip.setAttributeNS(null,"visibility","visible");
 	}
@@ -78,7 +62,5 @@
   <text class="tooltip" id="tooltip"
         x="0" y="0" visibility="hidden">Tooltip</text>
 </svg>
-<script type="text/javascript">
-	d3.select("#xsvg").append("p").text("Games with svg")
-</script>
+</div>
 	

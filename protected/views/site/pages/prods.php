@@ -83,32 +83,42 @@
                     </div>
                 </li>
                  <li>
-                    <img src="http://bqworks.com/products/grid-accordion/images/11.jpg"/>
-                    <div class="caption">Налаживание учетной системы сети магазинов:
-                         <a href="http://codecanyon.net">links</a> or <input type="button" value="Buttons"/>
+                <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/prods/academ.png'); ?>
+                      <div class="caption">Интеграция различных систем предприятия с веб-приложением
                     </div>
               </li>
                 <li>
-                    <img src="http://bqworks.com/products/grid-accordion/images/12.jpg"/>
+               <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/prods/lk.png'); ?>
+                      <div class="caption">Создание систем индивидуальной работы с клиентами.
+						  Обеспечение личного кабинета для клиентов компании. 
+                    </div>
                 </li>
                  <li>
-                    <img src="http://bqworks.com/products/grid-accordion/images/15.jpg"/>
-                    <div class="caption"><u>Title</u><br/><br/>This is a list of items:<ul><li>first item</li><li>second item</li><li>third item</li></ul></div>
+               <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/prods/digital.png'); ?>
+                      <div class="caption">Цифровизация предприятия
+                   </div>
                 </li>
                   <li>
-                    <img src="http://bqworks.com/products/grid-accordion/images/19.jpg"/>
-                     <div class="caption">You can also add <b>HTML</b> elements like
-                         <a href="http://codecanyon.net">links</a> or <input type="button" value="Buttons"/></div>
+               <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/prods/dig_it.png'); ?>
+                      <div class="caption" style="width:300px;height:200px;top:5px;">Обеспечение перехода предприятия на цифровую систему управления. 
+                         <ul>
+                           <li>Создание интернет-системы торговли и обслуживания клинетов</li>
+                           <li>Обеспечение работы предприятия в режиме цифровой системы</li>
+                           <li>Обеспечение оперативного обмена данными между всеми участками</li>
+                          <li>Выработка системы оперативного контроля предприятием</li>
+
+                           </ul>
+                   </div>
                 </li>
                 <li>
-                    <img src="http://bqworks.com/products/grid-accordion/images/21.jpg"/>
-                    <div class="caption"><u>Title</u><br/><br/>This is a list of items:<ul><li>first item</li><li>second item</li><li>third item</li></ul></div>
-                </li>
+              <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/prods/online.png'); ?>
+                      <div class="caption">Система онлайн бронирования.
+                   </div>
+                        </li>
                  <li>
-                    <img src="http://bqworks.com/products/grid-accordion/images/23.jpg"/>
-                    <div class="caption">You can also add <b>HTML</b> elements like 
-                        <a href="http://codecanyon.net">links</a> or 
-                        <input type="button" value="Buttons"/></div>
+               <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/prods/rule.jpg'); ?>
+                      <div class="caption">Упрпвление предприятием он-лайн
+                   </div>
                 </li>
-  		</ul>
+   		</ul>
  	</div><!---->  

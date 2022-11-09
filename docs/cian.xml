@@ -1737,6 +1737,7 @@
     <RoomsCount>3</RoomsCount>
     <FlatRoomsCount>3</FlatRoomsCount>
     <RoomType>separate</RoomType>
+    <RoomArea>55</RoomArea>
     <TotalArea>61</TotalArea>
     <FloorNumber>3</FloorNumber>
     <KitchenArea>10</KitchenArea>

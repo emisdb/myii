@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} vendor/ [OR]
+RewriteCond %{REQUEST_FILENAME} composer.phar [OR]
+RewriteCond %{REQUEST_FILENAME} composer.json [OR]
+RewriteCond %{REQUEST_FILENAME} composer.lock
+RewriteRule . index.php

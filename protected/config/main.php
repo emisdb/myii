@@ -1,5 +1,6 @@
 <?php
 define("IMG_PATH","/images/",true);
+require_once( dirname(__FILE__) . '/../../vendor/autoload.php');
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 

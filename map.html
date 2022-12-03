@@ -2,14 +2,14 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Моя карта</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>РњРѕСЏ РєР°СЂС‚Р°</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows.1251"/>
   <link rel="stylesheet" type="text/css" href="map/map.css" />
     <!--
-        Подключаем API карт 2.x
-        Параметры:
-          - load=package.full - полная сборка;
-	      - lang=ru-RU - язык русский.
+        РџРѕРґРєР»СЋС‡Р°РµРј API РєР°СЂС‚ 2.x
+        РџР°СЂР°РјРµС‚СЂС‹:
+          - load=package.full - РїРѕР»РЅР°СЏ СЃР±РѕСЂРєР°;
+	      - lang=ru-RU - СЏР·С‹Рє СЂСѓСЃСЃРєРёР№.
     -->
 	<script type="text/javascript" src="map/jquery-1.5.2.min.js"></script>
 	<script type="text/javascript" src="map/scriptbreaker-multiple-accordion-1.js"></script>
@@ -17,7 +17,7 @@
             type="text/javascript"></script>
 	<script type="text/javascript" language="javascript" src="map/map.js"></script>
     <script type="text/javascript">
-        // Как только будет загружен API и готов DOM, выполняем инициализацию
+        // РљР°Рє С‚РѕР»СЊРєРѕ Р±СѓРґРµС‚ Р·Р°РіСЂСѓР¶РµРЅ API Рё РіРѕС‚РѕРІ DOM, РІС‹РїРѕР»РЅСЏРµРј РёРЅРёС†РёР°Р»РёР·Р°С†РёСЋ
 
 $(document).ready(function() {
 	$(".topnav").accordion({
@@ -33,75 +33,75 @@ $(document).ready(function() {
 </head>
 
 <body>
-<h2>Размещение карты на странице</h2>
+<h2>Р Р°Р·РјРµС‰РµРЅРёРµ РєР°СЂС‚С‹ РЅР° СЃС‚СЂР°РЅРёС†Рµ</h2>
 
 <div class="maps" id="map"></div>
 
-<div class="right_text"> 
+<div class="right_text">
 <div onclick="trigger()">TRY</div>
 <ul class="topnav">
-	<li class="active"><a href="#"  onclick="">Санкт-Петербург</a>
+	<li class="active"><a href="#"  onclick="">РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі</a>
 		<ul>
-			<li><div class="chk" id=ch1 onclick="checkit('ch1')"></div> <a href="#">Выборгский р-н</a></li>
-			<li><a href="#" onclick="">Василеостровский р-н</a></li>
-			<li><a href="#" onclick="">Приморский р-н</a></li>
-			<li><a href="#" onclick="">Петроградский р-н</a></li>
+			<li><div class="chk" id=ch1 onclick="checkit('ch1')"></div> <a href="#">Р’С‹Р±РѕСЂРіСЃРєРёР№ СЂ-РЅ</a></li>
+			<li><a href="#" onclick="">Р’Р°СЃРёР»РµРѕСЃС‚СЂРѕРІСЃРєРёР№ СЂ-РЅ</a></li>
+			<li><a href="#" onclick="">РџСЂРёРјРѕСЂСЃРєРёР№ СЂ-РЅ</a></li>
+			<li><a href="#" onclick="">РџРµС‚СЂРѕРіСЂР°РґСЃРєРёР№ СЂ-РЅ</a></li>
 		</ul>
 	</li>
-	<li><a href="#"  onclick="">Автодороги</a>
+	<li><a href="#"  onclick="">РђРІС‚РѕРґРѕСЂРѕРіРё</a>
 		<ul>
-			<li><a href="#" onclick="">Мурманское шоссе</a></li>
-			<li><a href="#" onclick="">Московское шоссе</a></li>
-			<li><a href="#" onclick="">Киевское шоссе</a></li>
-			<li><a href="#" onclick="">Таллинское шоссе</a></li>
+			<li><a href="#" onclick="">РњСѓСЂРјР°РЅСЃРєРѕРµ С€РѕСЃСЃРµ</a></li>
+			<li><a href="#" onclick="">РњРѕСЃРєРѕРІСЃРєРѕРµ С€РѕСЃСЃРµ</a></li>
+			<li><a href="#" onclick="">РљРёРµРІСЃРєРѕРµ С€РѕСЃСЃРµ</a></li>
+			<li><a href="#" onclick="">РўР°Р»Р»РёРЅСЃРєРѕРµ С€РѕСЃСЃРµ</a></li>
 			<li><a href="#" onmouseover="m_coll.options.set( 'strokeColor' ,'bb6600');"
-onmouseout="m_coll.options.set('strokeColor', '33ff00');" onclick="">Выборгское шоссе</a></li>
- 			<li><a href="#" onclick="">Приозерское шоссе</a></li>
-			<li><a href="#" onclick="">Токсовское шоссе</a></li>
+onmouseout="m_coll.options.set('strokeColor', '33ff00');" onclick="">Р’С‹Р±РѕСЂРіСЃРєРѕРµ С€РѕСЃСЃРµ</a></li>
+ 			<li><a href="#" onclick="">РџСЂРёРѕР·РµСЂСЃРєРѕРµ С€РѕСЃСЃРµ</a></li>
+			<li><a href="#" onclick="">РўРѕРєСЃРѕРІСЃРєРѕРµ С€РѕСЃСЃРµ</a></li>
 		</ul>
 	</li>
-	<li><a href="#"  onclick="">Пограничные зоны</a>
+	<li><a href="#"  onclick="">РџРѕРіСЂР°РЅРёС‡РЅС‹Рµ Р·РѕРЅС‹</a>
 		<ul>
-			<li><a href="#" onclick="">Торфяновка</a></li>
-			<li><a href="#" onclick="">Брусничное</a></li>
-			<li><a href="#" onclick="">Светогорск</a></li>
+			<li><a href="#" onclick="">РўРѕСЂС„СЏРЅРѕРІРєР°</a></li>
+			<li><a href="#" onclick="">Р‘СЂСѓСЃРЅРёС‡РЅРѕРµ</a></li>
+			<li><a href="#" onclick="">РЎРІРµС‚РѕРіРѕСЂСЃРє</a></li>
 		</ul>
 	</li>
-	<li><a href="#"  onclick="">Пулково-2</a>
+	<li><a href="#"  onclick="">РџСѓР»РєРѕРІРѕ-2</a>
 		<ul>
-			<li><a href="#" onclick="">Стартовая улица</a></li>
-			<li><a href="#" onclick="">Пулковское шоссе</a></li>
+			<li><a href="#" onclick="">РЎС‚Р°СЂС‚РѕРІР°СЏ СѓР»РёС†Р°</a></li>
+			<li><a href="#" onclick="">РџСѓР»РєРѕРІСЃРєРѕРµ С€РѕСЃСЃРµ</a></li>
 		</ul>
 	</li>
-	<li><a href="#"  onclick="">Пригороды</a>
+	<li><a href="#"  onclick="">РџСЂРёРіРѕСЂРѕРґС‹</a>
 		<ul>
-			<li><a href="#" onclick="">Гатчина</a></li>
-			<li><a href="#" onclick="">Колпино</a></li>
-			<li><a href="#" onclick="">Красное село</a></li>
-			<li><a href="#" onclick="">Петродворец</a></li>
-			<li><a href="#" onclick="">Пушкин</a></li>
-			<li><a href="#" onclick="">Сосновый бор</a></li>
+			<li><a href="#" onclick="">Р“Р°С‚С‡РёРЅР°</a></li>
+			<li><a href="#" onclick="">РљРѕР»РїРёРЅРѕ</a></li>
+			<li><a href="#" onclick="">РљСЂР°СЃРЅРѕРµ СЃРµР»Рѕ</a></li>
+			<li><a href="#" onclick="">РџРµС‚СЂРѕРґРІРѕСЂРµС†</a></li>
+			<li><a href="#" onclick="">РџСѓС€РєРёРЅ</a></li>
+			<li><a href="#" onclick="">РЎРѕСЃРЅРѕРІС‹Р№ Р±РѕСЂ</a></li>
 		</ul>
 	</li>
-	<li><a href="#"  onclick="">Районные центры Лен. области</a>
+	<li><a href="#"  onclick="">Р Р°Р№РѕРЅРЅС‹Рµ С†РµРЅС‚СЂС‹ Р›РµРЅ. РѕР±Р»Р°СЃС‚Рё</a>
 		<ul>
-			<li><a href="#" onclick="">Бокситогорск</a></li>
-			<li><a href="#" onclick="">Волосово</a></li>
-			<li><a href="#" onclick="">Волхов</a></li>
-			<li><a href="#" onclick="">Всеволожск</a></li>
-			<li><a href="#" onclick="">Ивангород</a></li>
-			<li><a href="#" onclick="">Кингисепп</a></li>
-			<li><a href="#" onclick="">Кириши</a></li>
-			<li><a href="#" onclick="">Кировск</a></li>
-			<li><a href="#" onclick="">Коммунар</a></li>
-			<li><a href="#" onclick="">Лодейное поле</a></li>
-			<li><a href="#" onclick="">Луга</a></li>
-			<li><a href="#" onclick="">Пикалево</a></li>
-			<li><a href="#" onclick="">Приозерск</a></li>
-			<li><a href="#" onclick="">Сланцы</a></li>
-			<li><a href="#" onclick="">Тихвин</a></li>
-			<li><a href="#" onclick="">Тосно</a></li>
-			<li><a href="#" onclick="">Шлиссельбург</a></li>
+			<li><a href="#" onclick="">Р‘РѕРєСЃРёС‚РѕРіРѕСЂСЃРє</a></li>
+			<li><a href="#" onclick="">Р’РѕР»РѕСЃРѕРІРѕ</a></li>
+			<li><a href="#" onclick="">Р’РѕР»С…РѕРІ</a></li>
+			<li><a href="#" onclick="">Р’СЃРµРІРѕР»РѕР¶СЃРє</a></li>
+			<li><a href="#" onclick="">РРІР°РЅРіРѕСЂРѕРґ</a></li>
+			<li><a href="#" onclick="">РљРёРЅРіРёСЃРµРїРї</a></li>
+			<li><a href="#" onclick="">РљРёСЂРёС€Рё</a></li>
+			<li><a href="#" onclick="">РљРёСЂРѕРІСЃРє</a></li>
+			<li><a href="#" onclick="">РљРѕРјРјСѓРЅР°СЂ</a></li>
+			<li><a href="#" onclick="">Р›РѕРґРµР№РЅРѕРµ РїРѕР»Рµ</a></li>
+			<li><a href="#" onclick="">Р›СѓРіР°</a></li>
+			<li><a href="#" onclick="">РџРёРєР°Р»РµРІРѕ</a></li>
+			<li><a href="#" onclick="">РџСЂРёРѕР·РµСЂСЃРє</a></li>
+			<li><a href="#" onclick="">РЎР»Р°РЅС†С‹</a></li>
+			<li><a href="#" onclick="">РўРёС…РІРёРЅ</a></li>
+			<li><a href="#" onclick="">РўРѕСЃРЅРѕ</a></li>
+			<li><a href="#" onclick="">РЁР»РёСЃСЃРµР»СЊР±СѓСЂРі</a></li>
 		</ul>
 	</li>
 	

@@ -78,6 +78,8 @@
 	<div id="footer">
 <div class="canvas">
 
+	<?php date_default_timezone_set('UTC'); ?>
+
 <br/>Copyright &copy; <?php echo date('Y'); ?> by EMIS.DB.
 		All Rights Reserved.<br/>
 		<?php echo Yii::powered(); ?>

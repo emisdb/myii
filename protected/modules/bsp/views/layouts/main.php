@@ -64,7 +64,7 @@
 	<?php echo $content; ?>
 
 	<div class="clear"></div>
-
+	<?php date_default_timezone_set('UTC'); ?>
 	<div id="footer" >
 		Copyright &copy; <?php echo date('Y'); ?> by EMIS.DB
 		All Rights Reserved.

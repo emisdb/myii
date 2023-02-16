@@ -68,10 +68,10 @@ return array(
 		// uncomment the following to use a MySQL database
 
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=emis',
+			'connectionString' => 'mysql:host=mydb;dbname=emis',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'root',
 //			'charset' => 'cp1251',
 			'charset' => 'utf8',
                         'tablePrefix' => 'tbl_',
